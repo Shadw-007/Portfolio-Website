@@ -7,6 +7,7 @@
     <title>Cholwe's Portfolio Website</title>
     <link rel="stylesheet" href="/css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 <body>
 
@@ -15,11 +16,11 @@
         <a href="#" class="logo">Portfolio</a>
 
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="#" style="--i:1" class="active" >Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3">Skills</a>
+            <a href="#" style="--i:4">Portfolio</a>
+            <a href="#" style="--i:5">Contact</a>
         </nav>
     </header>
     <!-- Header section ends -->
@@ -30,17 +31,17 @@
         <img src="/images/Cholwe.jpg" alt="">
         <div class="home-content">
             <h3>Hello, It's Me</h3>
-            <h1><span>C</span>harlie <span>K</span>irk</h1>
-            <h3>And I'm a </h3>
+            <h1><span>C</span>harlie <span>M</span>uleya <span>K</span>irk</h1> 
+            <h3>And I'm <span id="typed"></span></h3>
             <p>I'm a web designer and ethical hacker with extensive experience of 2 years. <br>
             Expertise in creating and designing websties, front-end design, back-end configuration, ethical hacking
             and many more...</p>
             <div class="home-sci">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" style="--i:6"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:7"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-twitter'></i></a>
+                <a href="#" style="--i:10"><i class='bx bxl-whatsapp'></i></a>
             </div>
             <a href="#" class="btn-box">More About Me</a>
         </div>
@@ -48,6 +49,6 @@
 
     <!-- Home section ends -->
 
-    <script src="/Portfolio-Website/js/script.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
