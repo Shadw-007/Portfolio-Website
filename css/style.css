@@ -58,7 +58,7 @@ section{
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    cursor: default;
+    cursor: pointer;
     opacity: 0;
     animation: slideRight 1s ease forwards;
 }
@@ -398,6 +398,99 @@ section{
     color: var(--second-bg-color);
 }
 
+
+/* ---------- Contact Section ----------- */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: url(/images/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.contact h2{
+    margin-bottom: 3rem;
+}
+
+.contact form{
+    width: 75%;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input, 
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input{
+    width: 49%;
+}
+
+
+.contact form textarea{
+    resize: none;
+    margin-bottom: 35px;
+}
+
+
+.contact form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+/* -------- Footer section ---------- */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%; 
+}
+
+.footer-text p{
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.footer-iconTop a:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer-iconTop a i{
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
+    
+}
 
 
 
