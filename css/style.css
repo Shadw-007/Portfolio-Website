@@ -587,7 +587,16 @@ section{
     }
 
     .about{
+        margin-left: 55px;
         flex-direction: column-reverse;
+    }
+
+    .about-content h2{
+        font-size: 3rem;
+    }
+
+    .about-content h3{
+        font-size: 2.6rem;
     }
 
     .about img{
@@ -595,9 +604,9 @@ section{
         margin-top: 4rem;
     }
 
-    .about-content{
+    /* .about-content{
         font-size: 2.6rem;
-    }
+    } */
 
     .skills h2{
         margin-bottom: 3rem;
