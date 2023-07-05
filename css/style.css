@@ -111,12 +111,13 @@ section{
 }
 
 .home img{
-    max-width: 220px;
+    max-width: 250px;
     border-radius: 30px;
     margin-right: 120px;
     margin-left: 20px;
     justify-content: space-between;
     box-shadow: 0 0 10px 10px #0ef;
+    animation: floatImage 4s ease-in-out infinite;
 }
 
 .home-content{
@@ -484,6 +485,7 @@ section{
     margin-left: 20px;
     text-decoration: none;
     transition: .5s ease;
+    margin-top: 10px; 
 }
 
 .footer-iconTop a:hover {
@@ -493,7 +495,6 @@ section{
 .footer-iconTop a i{
     font-size: 2.4rem;
     color: var(--second-bg-color);
-    
 }
 
 
@@ -646,7 +647,19 @@ section{
 
 }
 
+/* ---------- Keyframes ----------- */
 
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 @keyframes slideRight {
     0%{

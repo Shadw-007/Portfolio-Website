@@ -58,4 +58,5 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal(".home img, skills, ", { origin: 'top' });
+ScrollReveal().reveal('.home-content', { origin: 'top' });
+ScrollReveal().reveal(".home-img, .about, .skills-box,  .portfolio-box, .contact form", { origin: 'right' });
