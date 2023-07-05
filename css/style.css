@@ -248,12 +248,18 @@ section{
 .about-content h2{
     text-align: left;
     line-height: 1.2;
+    margin-bottom: 10px;
 }
 
 .about-content h3{
     font-size: 26px;
     margin-top: 5px;
 }
+
+.about-content span{
+    color: var(--main-color);
+}
+
 
 .about-content p{
     font-size: 16px;
@@ -502,7 +508,7 @@ section{
 
 @media (max-width: 1200px){
     html{
-        font-size: 55%;
+        font-size: 50%;
     }
 }
 
@@ -617,7 +623,7 @@ section{
 
 @media (max-width: 450px){
     html{
-        font-size: 50%; 
+        font-size: 45%; 
     }
 
     .contact form .input-box input{
