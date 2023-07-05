@@ -18,6 +18,7 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    background-size: cover;
 }
 
 body{
@@ -90,7 +91,7 @@ section{
 }
 
 #menu-icon{
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     display: none;
 }
@@ -592,6 +593,10 @@ section{
     .about img{
         width: 70vw;
         margin-top: 4rem;
+    }
+
+    .about-content{
+        font-size: 2.6rem;
     }
 
     .skills h2{
