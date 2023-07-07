@@ -463,9 +463,10 @@ section{
 }
 
 
-.contact form .btn{
+.contact form .btn-box{
     margin-top: 2rem;
-    cursor: pointer;
+    cursor: pointer; 
+    margin: 10px;
 }
 
 /* -------- Footer section ---------- */
